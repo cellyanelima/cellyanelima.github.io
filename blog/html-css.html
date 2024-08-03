@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display inline vs inline blocks</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <a href="../index.html"><li>Go back</li></a>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="../img/images.jfif"
+        width="100"
+        alt="Image of Tecnology Skills."
+      />
+      <h1>Display inline vs inline blocks</h1>
+    </header>
+    <main>
+      <section class="content" id="informations">
+        <p>
+          In CSS, the display: inline and display: inline-block properties
+          determine how elements are displayed on the page. The main difference
+          between them lies in how they occupy space and how their contents are
+          handled. Let's explore the characteristics of each:
+        </p>
+        <br />
+        <div>
+          <h4>Display: inline</h4>
+          <ul>
+            <li>
+              Positioning in line: Elements with display: inline are placed in
+              line with other elements, meaning they do not start on a new line.
+              They flow with the surrounding text.
+            </li>
+            <li>
+              Dimensions: The width and height of inline elements are
+              automatically determined by the content. It is not possible to
+              manually set the width or height using CSS.
+            </li>
+            <li>
+              Margin and Padding: Only the horizontal margins and padding (left
+              and right) affect the spacing around inline elements. Vertical
+              values (top and bottom) are applied but do not affect the visual
+              spacing.
+            </li>
+            <img
+              src="../img/exemple-inline.png"
+              width="500"
+              alt="Exemple inline."
+            />
+          </ul>
+          <br />
+          <h4>Display: inline-block</h4>
+          <ul>
+            <li>
+              Positioning in line: Elements with display: inline-block are also
+              laid out in line with other elements, but unlike inline elements,
+              they can have defined dimensions.
+            </li>
+            <li>
+              Dimensions: You can explicitly set the width (width) and height
+              (height) of inline-block elements.
+            </li>
+            <li>
+              Margin and Padding: Both horizontal and vertical margins and
+              padding affect the spacing around inline-block elements.
+            </li>
+          </ul>
+          <img
+            src="../img/exemple-inline-block.png"
+            width="500"
+            alt="Exemple inline."
+          />
+        </div>
+        <!-- this is a comment. -->
+      </section>
+    </main>
+    <footer>
+      <span>Made by Cellyane Lima - 2024</span>
+    </footer>
+  </body>
+</html>
