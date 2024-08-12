@@ -53,6 +53,10 @@ footer {
   border-radius: 8px;
 }
 
+.tabcolor {
+  background-color: rgb(139, 100, 237);
+}
+
 /* Tablets */
 @media (max-width: 919px) {
   main {
