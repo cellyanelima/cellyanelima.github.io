@@ -40,6 +40,11 @@ main {
   flex: 2 1 600px; /* Flex item that can grow and shrink with a base width */
 }
 
+.reflection {
+  padding: 20px;
+  text-align: justify;
+}
+
 #informations {
   background-color: aquamarine;
 }
